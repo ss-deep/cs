@@ -14,7 +14,7 @@ function addToZero(arr) {
     return false
 }
 console.log(addToZero([1, 2, 3]));// -> False
-console.log(addToZero([1, 2, 3, -2]));;// -> True
+console.log(addToZero([1, 2, 3, -2]));// -> True
 
 // Time Complexity : O(n)
 // Space complexity : O(n)
@@ -55,7 +55,7 @@ function isPangram(str) {
 }
 
 console.log(isPangram("The quick brown fox jumps over the lazy dog!")); ;// -> True
-console.log(isPangram("I like cats, but not mice"));;// -> False 
+console.log(isPangram("I like cats, but not mice"));// -> False 
 
 // Time Complexity : O(n)
 // Space complexity : O(1)
